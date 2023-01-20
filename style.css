@@ -1,0 +1,207 @@
+body {
+    width: 100vw;
+    height: 250vh;
+    background-color: #5C7AFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("FoodImagesVideo/ramen-7187810_1920.jpg");
+    background-position: contain;
+    color: #f8edeb;
+
+}
+
+/* since both had similar dimensions grouped both together */
+.topNav,
+.bottomNav {
+    width: 100vw;
+    height: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+
+}
+
+.topNav a {
+    font-size: 25px;
+}
+
+
+h1 {
+    text-decoration-line: underline;
+    margin: 50px 0 50px 0;
+}
+
+section {
+    width: 85vw;
+    height: 190vh;
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 0;
+}
+
+.mediaTop {
+
+    display: flex;
+    background-color: #4A8FE7;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #3c096c;
+    border: 3px solid #f8edeb;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+
+div {
+    width: 320px;
+    height: 490px;
+    border: 2px solid #f8edeb;
+    background-color: #3c096c;
+
+
+}
+
+img:hover,
+div:hover {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px cyan;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+a {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span a {
+    font-size: 15px;
+
+}
+
+span {
+    text-align: center;
+    /* margin-top: -13px; */
+    color: #f8edeb;
+
+}
+
+
+
+
+
+img {
+
+
+
+    width: 320px;
+    height: 450px;
+
+}
+
+.pagination {
+    display: inline-block;
+    /* width: 24vw;
+    height: 10vh; */
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.pagination a {
+    color: #f8edeb;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+a {
+    color: #f8edeb;
+
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
+/* used width auto feature to adjust size according to view port */
+@media (max-width:1150px) {
+
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 300vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+}
+
+@media (max-width:765px) {
+
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 500vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+}

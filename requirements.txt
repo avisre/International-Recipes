@@ -1,0 +1,60 @@
+Landing page:
+
+header:
+Contact us, Social Media, About us,Videos,Top 10
+
+main
+
+1.imgs and description short of continents.
+
+
+footer:
+sitemap,contact us,Feedback.
+
+Academic requirements.
+
+1.Sitemap,pagination,css breadcrumb,make all pages mobile friendly and responsive.
+
+
+HTML
+
+Code must be original.
+Files management should be consistent (folders and files in the appropriate location)
+Proper use of HTML syntax
+Proper structure of HTML pages
+Proper use of comments in HTML 
+Proper use of semantic and non-semantic HTML elements, as appropriate
+Proper use of metadata for SEO
+Proper use of HTML attributes (required and recommended)
+Provide alt text for all images
+At least one page must have a gallery of images and/or videos using any style you want
+
+CSS
+
+Responsive and accessible (laptop, mobile and tablet)
+Use of Flexbox (or Grid) to create your page layouts
+Use of Media Queries to create designs suitable for different screen sizes
+One of the following: 
+One external global stylesheet, and a separate external stylesheet for variations in each individual page’s CSS, OR
+One external stylesheet with global CSS and individual page CSS clearly commented out into obvious sections
+Appropriate use of comments to explain your code throughout CSS file(s)
+Variety of selectors used appropriate to the design
+Variety of properties used appropriate to the design
+
+Design:
+
+page 2:
+media page contains all the images and videos
+
+page 3:
+list of food by countries 10 countries:
+
+page 4:
+Sign in form:
+
+page 5 Feedback Form:
+
+page 6, Social Media Page.
+
+To do  list:
+Homepage done>>

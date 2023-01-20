@@ -1,0 +1,161 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'Sora', sans-serif;
+
+}
+
+
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topRow {
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+
+}
+
+.breadCrumbs {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+
+}
+
+.breadCrumbs li::after {
+    content: ">  ";
+}
+
+.breadCrumbs li:last-child::after {
+    content: "";
+}
+
+li a {
+
+    color: black;
+
+}
+
+.rowTwo {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+div {
+    width: 10vw;
+    height: 3vh;
+    border: 5px solid black;
+    background-color: #0b090a;
+    color: #f5f3f4;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    margin: 10px;
+
+}
+
+.bottomRow {
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.pagination {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
+.firstPic {
+    width: 220px;
+    height: 150px;
+}
+
+.secondPic {
+    width: 92px;
+    height: 80px;
+}
+
+@media (max-width:1212px) {
+    body {
+        height: auto;
+        width: auto;
+    }
+
+    div {
+        width: auto;
+        height: auto;
+    }
+
+    .rowOne {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .rowTwo {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondPic {
+        transform: rotate(90deg);
+    }
+}

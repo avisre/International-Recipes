@@ -1,0 +1,294 @@
+body {
+    width: 100vw;
+    height: 340vh;
+    background-color: #5C7AFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+section {
+    width: 85vw;
+    height: 220vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 0;
+}
+
+.mediaTop {
+
+    display: flex;
+    background-color: #4A8FE7;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 90px;
+
+}
+
+.bottomRow {
+
+    width: 85vw;
+    height: 70vh;
+    background-color: #4A8FE7;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+div {
+    width: 220px;
+    height: 150px;
+    border: 2px solid #44E5E7;
+}
+
+img:hover,
+div:hover {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px yellow;
+    transition: 600ms;
+    cursor: pointer;
+
+}
+
+
+
+
+/* wanted the video to be at the top of the div hence applied this style */
+
+video {
+    object-position: top;
+    object-fit: contain;
+}
+
+.breadCrumbs {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+
+}
+
+.breadCrumbs li::after {
+    content: ">  ";
+}
+
+.breadCrumbs li:last-child::after {
+    content: "";
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+
+
+a {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span a {
+    font-size: 15px;
+
+
+}
+
+span {
+    margin-top: -13px;
+
+}
+
+/* styling for text (spans) in video row */
+
+.vid {
+    margin-top: -35px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+img {
+    width: 220px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.pagination {
+    display: inline-block;
+    /* width: 24vw;
+    height: 10vh; */
+    width: auto;
+    height: auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
+
+@media (max-width:957px) {
+
+    body {
+        height: auto;
+
+    }
+
+
+    .mediaTop {
+        height: 300vh;
+
+    }
+
+    .bottomRow {
+        height: 90vh;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+
+
+
+
+    .pagination {
+        width: auto;
+        height: auto;
+
+    }
+
+
+}
+
+@media (max-width:877px) {
+
+    body {
+        height: auto;
+
+    }
+
+
+    .mediaTop {
+        height: 470vh;
+        flex-direction: row;
+    }
+
+    .bottomRow {
+        height: 110vh;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+
+
+
+
+    .pagination {
+        width: auto;
+        height: auto;
+
+    }
+
+
+}
+
+@media (max-width:577px) {
+
+    body {
+        height: auto;
+
+    }
+
+
+    .mediaTop {
+        height: 730vh;
+        flex-direction: column;
+    }
+
+    .bottomRow {
+        height: 182vh;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+
+
+
+
+    .pagination {
+        width: auto;
+        height: auto;
+
+    }
+
+
+}

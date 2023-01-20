@@ -1,0 +1,244 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    position: absolute;
+    background-color: black;
+
+}
+
+p {
+    display: inline-block;
+    width: 780px;
+    line-height: 28px;
+    text-align: left;
+
+
+}
+
+.topRow {
+    width: 100vw;
+    height: 9vh;
+
+
+
+}
+
+.bottomRow {
+    width: 100vw;
+    height: 10vh;
+}
+
+.topRow a {
+    padding: 0 10px 0 10px;
+}
+/* wanted the text section to have a background hence used background-image property */
+article {
+
+    background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1200");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+
+
+
+
+
+.links {
+    margin-top: 30px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.links img {
+    width: 190px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+span:nth-of-type(1) {
+    margin-left: -150px;
+    position: fixed;
+}
+
+.breadCrumbs {
+    width: 29vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+
+
+.breadCrumbs li::after {
+    content: ">  ";
+}
+
+.breadCrumbs li:last-child::after {
+    content: "";
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.pagination {
+    display: inline-block;
+    width: 24vw;
+    height: 10vh;
+}
+
+.pagination a {
+    color: #f8edeb;
+    float: left;
+    padding: 9px 10px;
+    text-decoration: none;
+}
+
+
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
+@media (max-width:1212px) {
+
+    body {
+        height: auto;
+    }
+
+    img {
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    p {
+
+        width: 550px;
+        line-height: 22px;
+        text-align: center;
+
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    .breadCrumbs {
+        width: auto;
+    }
+
+
+}
+
+@media (max-width:1021px) {
+    body {
+        height: auto;
+    }
+
+    img {
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    p {
+
+        width: 550px;
+        line-height: 22px;
+        text-align: center;
+
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    .breadCrumbs {
+        width: auto;
+    }
+
+    span:nth-of-type(1) {
+        margin-left: 50px;
+        position: fixed;
+    }
+
+    .topRow {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    body {
+        height: auto;
+    }
+
+    img {
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    p,
+    a {
+
+        width: 340px;
+        line-height: 22px;
+        text-align: center;
+        font-size: 18px;
+
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    .breadCrumbs {
+        width: auto;
+    }
+
+
+}
