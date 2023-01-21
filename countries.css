@@ -88,6 +88,7 @@ div:hover {
     box-shadow: 1px 1px 9px cyan;
     transition: 600ms;
     cursor: pointer;
+    transform:translateY(0.25em);
 
 }
 
