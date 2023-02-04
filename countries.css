@@ -88,9 +88,15 @@ div:hover {
     box-shadow: 1px 1px 9px cyan;
     transition: 600ms;
     cursor: pointer;
-   
+
 }
 
+.pagination:hover {
+    border-radius: 1%;
+    box-shadow: 1px 1px 9px cyan;
+    transition: 600ms;
+    cursor: pointer;
+}
 
 
 
