@@ -12,6 +12,7 @@ body {
     background-position: contain;
     color: #f8edeb;
 
+
 }
 
 /* since both had similar dimensions grouped both together */
@@ -29,6 +30,19 @@ body {
 
 .topNav a {
     font-size: 25px;
+
+
+
+}
+
+.blurryButton {
+    font-size: 25px;
+    background-color: #3c096c;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    /* backdrop-filter: blur(10px); */
+    ;
 }
 
 
@@ -77,6 +91,7 @@ div {
 
 }
 
+
 img:hover,
 div:hover {
     border-radius: 20px;
@@ -85,9 +100,21 @@ div:hover {
     cursor: pointer;
 }
 
+.topNav a:hover {
 
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px yellow;
+    transition: 600ms;
+    cursor: pointer;
 
+}
 
+h1:hover {
+    color: cyan;
+    transition: 600ms;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
 
 
 
@@ -139,7 +166,7 @@ img {
     height: 10vh; */
     width: auto;
     height: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 20px;
 }
 
@@ -182,6 +209,13 @@ a:active {
         width: auto;
     }
 
+    .blurryButton {
+        font-size: 18px;
+
+
+
+    }
+
 }
 
 @media (max-width:765px) {
@@ -195,6 +229,13 @@ a:active {
 
     }
 
+    .blurryButton a {
+
+        font-size: 2px;
+
+
+    }
+
     .pagination {
         width: auto;
     }
@@ -203,5 +244,35 @@ a:active {
         width: 100%;
     }
 
+
+}
+
+@media (max-width:555px) {
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 500vh;
+
+    }
+
+    a .blurryButton {
+
+        display: flex;
+        flex-direction: column;
+        font-size: 2px;
+
+
+    }
+
+    .pagination {
+        margin-top: 10px;
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
 
 }
